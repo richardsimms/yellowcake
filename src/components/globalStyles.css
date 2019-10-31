@@ -1,11 +1,11 @@
 :root {
-  --primary: #00c2bd;
-  --secondary: #000;
+  --primary: #155185; /*--primary: #00c2bd; */
+  --secondary: #333333;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #ff3d3d;
-  --font-primary: 'Open Sans', sans-serif;
+  --font-primary: 'Tenor Sans', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
 }
@@ -59,9 +59,22 @@ p {
   margin-bottom: 1em;
 }
 
-h1,
-h2,
-h3,
+h1 {
+  font-family: var(--font-primary);
+}
+h2 {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 158.47%;
+}
+h3 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 158.47%;
+}
 h4,
 h5,
 h6 {
