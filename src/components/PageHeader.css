@@ -1,6 +1,6 @@
 .PageHeader {
   background-color: var(--darkGrey);
-  color: red;
+  color: #333333;
   padding: 15rem 0;
 }
 
@@ -10,6 +10,7 @@
 
 .PageHeader-large {
   padding: 20rem 0;
+  text-align: center;
 }
 
 .PageHeader--Title {
@@ -25,6 +26,8 @@
 .PageHeader .container {
   animation: fadeIn 0.5s ease-out;
 }
+
+
 
 @media (max-width: 600px) {
   .PageHeader {

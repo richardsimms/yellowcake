@@ -17,6 +17,17 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Tenor Sans`,
+            subsets: [`latin`],
+          },
+        ],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-offline',
       options: {
         runtimeCaching: [
