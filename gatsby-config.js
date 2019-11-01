@@ -16,6 +16,15 @@ module.exports = {
         includeInDevelopment: false
       }
     },
+    //6LfrlcAUAAAAAPOLmIjOkyJn5qq6pT_9m6uQxn2C
+    {
+      resolve: `gatsby-plugin-recaptcha`,
+      options: {
+         async: false,
+         defer: false,
+         args: `?onload=onloadCallback&render=explicit`,
+      },
+   },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
