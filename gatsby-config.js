@@ -3,7 +3,7 @@ const postcssPresetEnv = require('postcss-preset-env')
 module.exports = {
   siteMetadata: {
     title: 'Yelloecake',
-    siteUrl: 'https://yellowcake.netlify.com'
+    siteUrl: 'https://lucid-feynman-d8aaf9.netlify.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -16,15 +16,7 @@ module.exports = {
         includeInDevelopment: false
       }
     },
-    //6LfrlcAUAAAAAPOLmIjOkyJn5qq6pT_9m6uQxn2C
-    {
-      resolve: `gatsby-plugin-recaptcha`,
-      options: {
-         async: false,
-         defer: false,
-         args: `?onload=onloadCallback&render=explicit`,
-      },
-   },
+
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
