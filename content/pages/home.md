@@ -7,6 +7,8 @@ subtitle: Want to know 5 key steps on how to maximise your marketing on a small 
 accordion:
   - content: 'Test '
     title: Title
+  - content: 'Test theis '
+    title: 'Richard '
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
