@@ -8,6 +8,7 @@ import './PageHeader.css'
 const PageHeader = ({
   title,
   subtitle,
+  button,
   backgroundImage,
   large,
   className = ''
@@ -30,8 +31,8 @@ const PageHeader = ({
           <Content className="PageHeader--Subtitle" src={subtitle} />
         )}
         <div className="section thin">
-          <div className="Button" onClick="">
-            Get your free step by step guide
+          <div className="Button" onClick="{button}">
+            {button}
           </div>
         </div>  
       </div>
