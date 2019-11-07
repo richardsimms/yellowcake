@@ -4,9 +4,6 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import Accordion from '../components/Accordion'
-
-
 
 
 
@@ -14,28 +11,20 @@ import Accordion from '../components/Accordion'
 export const HomePageTemplate = ({ 
   title, 
   subtitle, 
-  button,
   featuredImage, 
-  body, 
-  accordion 
+  body
 }) => (
   <main className="Home">
     <PageHeader
       large
       title={title}
       subtitle={subtitle}
-      button={button}
       backgroundImage={featuredImage}
     />
 
     <section className="section">
       <div className="container skinny">
         <Content source={body} />
-      </div>
-    </section>
-    <section className="section">
-      <div className="container">
-        <Accordion items={accordion} />
       </div>
     </section>
   </main>
