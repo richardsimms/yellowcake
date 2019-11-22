@@ -1,14 +1,222 @@
+/*
+   * Font face declarations
+   */
+
+   @font-face {
+    font-family: 'Canela';
+    font-display: fallback;
+    src: local('Canela-Thin'),
+      url('/Fonts/Canela/Canela-Thin.woff2') format('woff2'),
+      url('/Fonts/Canela/Canela-Thin.woff') format('woff');
+    font-weight: 100;
+  }
+
+  @font-face {
+    font-family: 'Canela';
+    font-display: fallback;
+    src: local('Canela-ThinItalic'),
+      url('/Fonts/Canela/Canela-ThinItalic.woff2') format('woff2'),
+      url('/Fonts/Canela/Canela-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Canela';
+    font-display: fallback;
+    src: local('Canela-Light'),
+      url('/Fonts/Canela/Canela-Light.woff2') format('woff2'),
+      url('/Fonts/Canela/Canela-Light.woff') format('woff');
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: 'Canela';
+    font-display: fallback;
+    src: local('Canela-LightItalic'),
+      url('/Fonts/Canela/Canela-LightItalic.woff2') format('woff2'),
+      url('/Fonts/Canela/Canela-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Canela';
+    font-display: fallback;
+    src: local('Canela-Regular'),
+      url('/Fonts/Canela/Canela-Regular.woff2') format('woff2'),
+      url('/Fonts/Canela/Canela-Regular.woff2') format('woff2');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Canela';
+    font-display: fallback;
+    src: local('Canela-RegularItalic'),
+      url('/Fonts/Canela/Canela-RegularItalic.woff2') format('woff2'),
+      url('/Fonts/Canela/Canela-RegularItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Canela';
+    font-display: fallback;
+    src: local('Canela-Medium'),
+      url('/Fonts/Canela/Canela-Medium.woff2') format('woff2'),
+      url('/Fonts/Canela/Canela-Medium.woff') format('woff');
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: 'Canela';
+    font-display: fallback;
+    src: local('Canela-MediumItalic'),
+      url('/Fonts/Canela/Canela-MediumItalic.woff2') format('woff2'),
+      url('/Fonts/Canela/Canela-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Canela';
+    font-display: fallback;
+    src: local('Canela-Bold'),
+      url('/Fonts/Canela/Canela-Bold.woff2') format('woff2'),
+      url('/Fonts/Canela/Canela-Bold.woff') format('woff');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'Canela';
+    font-display: fallback;
+    src: local('Canela-BoldItalic'),
+      url('/Fonts/Canela/Canela-BoldItalic.woff2') format('woff2'),
+      url('/Fonts/Canela/Canela-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Canela';
+    font-display: fallback;
+    src: local('Canela-Black'),
+      url('/Fonts/Canela/Canela-Black.woff2') format('woff2'),
+      url('/Fonts/Canela/Canela-Black.woff') format('woff');
+    font-weight: 900;
+  }
+
+  @font-face {
+    font-family: 'Canela';
+    font-display: fallback;
+    src: local('Canela-BlackItalic'),
+      url('/Fonts/Canela/Canela-BlackItalic.woff2') format('woff2'),
+      url('/Fonts/Canela/Canela-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'NB International Pro';
+    font-display: fallback;
+    src: local('NBInternationalProLight'),
+      url('/Fonts/NBInternationalPro/NBInternationalProLight.woff2')
+        /* no woff for this font */ format('woff2');
+    font-weight: 100;
+  }
+
+  @font-face {
+    font-family: 'NB International Pro';
+    font-display: fallback;
+    src: local('NBInternationalProRegular'),
+      url('/Fonts/NBInternationalPro/NBInternationalProRegular.woff2')
+        format('woff2'),
+      url('/Fonts/NBInternationalPro/NBInternationalProRegular.woff')
+        format('woff');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'NB International Pro';
+    font-display: fallback;
+    src: local('NBInternationalProItalic'),
+      url('/Fonts/NBInternationalPro/NBInternationalProItalic.woff2')
+        format('woff2'),
+      url('/Fonts/NBInternationalPro/NBInternationalProItalic.woff')
+        format('woff');
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'NB International Pro';
+    font-display: fallback;
+    src: local('NBInternationalProBold'),
+      url('/Fonts/NBInternationalPro/NBInternationalProBold.woff2')
+        format('woff2'),
+      url('/Fonts/NBInternationalPro/NBInternationalProBold.woff')
+        format('woff');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: 'NB International Pro';
+    font-display: fallback;
+    src: local('NBInternationalProBoldItalic'),
+      url('/Fonts/NBInternationalPro/NBInternationalProBoldItalic.woff2')
+        format('woff2'),
+      url('/Fonts/NBInternationalPro/NBInternationalProBoldItalic.woff')
+        format('woff');
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'NB International Pro Mono';
+    font-display: fallback;
+    src: local('NBInternationalProMono'),
+      url('/Fonts/NBInternationalPro/NBInternationalProMono.woff2')
+        format('woff2'),
+      url('/Fonts/NBInternationalPro/NBInternationalProMono.woff')
+        format('woff');
+    font-weight: 400;
+  }
+
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+
+
 :root {
   --primary: #155185; /*--primary: #00c2bd; */
   --secondary: #333333;
   --lightGrey: whitesmoke;
-  --midGrey: #cacaca;
-  --darkGrey: #272727;
+  --midGrey: #c0c0c0;
+  --darkGrey: #29292a;
+ 
   --danger: #ff3d3d;
-  --font-primary: 'Tenor Sans', sans-serif;
-  --font-system: system-ui; /* postcssPresetEnv */
+  --font-primary: 'Canela', serif;
+  --font-system: 'NB International Pro', sans-serif; /* postcssPresetEnv */
   --borderRadius: 4px;
+  --white: #fff;
+  --whiteFaded: rgba(255, 255, 255, 0.7);
+  --black: #000;
+  --lightgray: #F8F8F9;
+  --darkgrayFaded: rgba(41, 41, 42, 0.7);
+  --reallydarkgray: #282829;
+  --yellow: #EBC900; 
+  --lightblue: #a5e6ec;
+  --acquiaBlue: #0678BE;
+  --lightgreen: #cef5e2;
+  
 }
+/*
+ * Change the default scroll bar style
 
 ::-webkit-scrollbar {
   width: 0.4rem;
@@ -21,14 +229,20 @@
 ::-webkit-scrollbar-thumb {
   background-color: var(--primary);
 }
-
+*/
 ::selection {
   background: rgba(0, 194, 189, 0.6);
 }
+  /*
+   * Global Typography & Normalization
+   */
 
+  
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   min-height: 100%;
   background: var(--lightGrey);
 }
@@ -39,7 +253,7 @@ body {
   position: relative;
   background: white;
   color: var(--secondary);
-  font-size: 1.6em;
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.01em;
   line-height: 1.6;
@@ -62,9 +276,10 @@ p {
 h1 {
   font-family: var(--font-primary);
   font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 158.47%;
+  font-weight: 500;
+  font-size: 6.5rem;
+  line-height: 120%;
+  margin-top:0;
 }
 h2 {
   font-family: var(--font-primary);
@@ -74,7 +289,9 @@ h2 {
   line-height: 158.47%;
 }
 h3 {
-  
+  font-family: var(--font-primary);
+  font-weight: 100;
+  font-size: 2.25rem;
 }
 h4,
 h5,
@@ -117,7 +334,19 @@ blockquote {
   font-style: italic;
   border-left: 2px solid var(--primary);
 }
-
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
 /* Utility Classes */
 .light {
   background-color: var(--lightGrey);
@@ -209,9 +438,7 @@ blockquote {
   max-width: 555px;
 }
 
-/* Buttons */
-
-.Button {
+/* Buttons 
   background: var(--primary);
   color: white;
   text-transform: uppercase;
@@ -225,11 +452,87 @@ blockquote {
   transition: all 0.2s ease;
   cursor: pointer;
   border-radius: var(--borderRadius);
+*/
+.Button span {
+  z-index: 2;
+}
+.Button {
+  display: block;
+  position: relative;
+  padding-top: 17px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(rgb(41, 41, 42), rgb(41, 41, 42) 50%, rgb(255, 255, 255) 50%);
+  background-size: 100% 200%;
+  background-position-x: center;
+  background-position-y: top;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: initial;
+  transition-property: all;
+  font-family: "NB International Pro", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  padding-bottom:1rem;
+  text-indent:0px;
+  text-rendering:auto;
+  text-shadow:none;
+  text-size-adjust:100%;
+  word-spacing:0px;
+  writing-mode:horizontal-tb;
+  -webkit-font-smoothing:antialiased;
+  -webkit-text-fill-color:rgba(0, 0, 0, 0);
+  align-items: center;
+}
+
+.Button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  z-index: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 1px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: initial;
+  transition-property: height;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(41, 41, 42);
+  -webkit-text-fill-color:rgba(1, 1, 1, 1);
+  
+
+  }
+.Button:hover::before, .Button:focus::before {
+  height: 100%;
 }
 .Button:hover,
 .Button:focus {
   opacity: 0.95;
   outline: none;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: initial;
+  transition-property: all;
+  
 }
 .Button[disabled] {
   opacity: 0.4;

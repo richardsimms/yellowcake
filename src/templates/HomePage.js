@@ -18,7 +18,17 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body, }) => (
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-
+    <section className="section">
+      <div className="container skinny">
+        <h3 class="">Our Work</h3>
+        <h1 class="">Quicken</h1>
+        <picture>
+        </picture>
+        <div class="Button">
+          <span>View Case Study</span>
+        </div>
+     </div>
+    </section>
     <section className="section">
       <div className="container skinny">
         <Content source={body} />
@@ -78,6 +88,10 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        accordion {
+          title
+          description
+        }
       }
     }
   }

@@ -2,8 +2,13 @@
 template: HomePage
 slug: ''
 title: Plan your marketing to build your business for growth
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: Want to know 5 key steps on how to maximise your marketing on a small budget?
+featuredImage: 'https://ucarecdn.com/1b70d70d-91ab-4647-a2ae-b2d0d6195c39/'
+subtitle: '``'
+accordion:
+  - content: 'Test '
+    title: Title
+  - content: 'Test theis '
+    title: 'Richard '
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter

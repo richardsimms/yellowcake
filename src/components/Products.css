@@ -1,0 +1,51 @@
+.Product {
+  background-color: var(--darkGrey);
+  color: #333333;
+  padding: 15rem 0;
+  display: grid | inline-grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.PageHeader .BackgroundImage {
+  opacity: 0.8;
+}
+
+.Product-large {
+  padding: 2rem 0;
+  text-align: left;
+}
+
+.Product--Title {
+  font-size: 2.4rem;
+  margin-bottom: 0;
+}
+
+.PageHeader--Subtitle {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.PageHeader .container {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.Product--button {
+  background: none;
+  border: none;
+  color:#155185;
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+  .PageHeader {
+    padding: 7rem 0;
+  }
+  .PageHeader-large {
+    padding: 12.5rem 0;
+  }
+}
