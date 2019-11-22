@@ -21,7 +21,17 @@ export const HomePageTemplate = ({
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-
+    <section className="section">
+      <div className="container skinny">
+        <h3 class="">Our Work</h3>
+        <h1 class="">Quicken</h1>
+        <picture>
+        </picture>
+        <button class="Button">
+          <span>View Case Study</span>
+        </button>
+     </div>
+    </section>
     <section className="section">
       <div className="container skinny">
         <Content source={body} />

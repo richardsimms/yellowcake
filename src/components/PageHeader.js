@@ -28,12 +28,7 @@ const PageHeader = ({
         <h1 className="PageHeader--Title">{title}</h1>
         {subtitle && (
           <Content className="PageHeader--Subtitle" src={subtitle} />
-        )}
-        <div className="section thin">
-          <div className="Button" onClick="">
-            
-          </div>
-        </div>  
+        )}        
       </div>
     </div>
   )

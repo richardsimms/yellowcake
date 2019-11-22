@@ -1,5 +1,5 @@
 .PageHeader {
-  background-color: var(--darkGrey);
+  background-color: var(--yellow);
   color: #333333;
   padding: 15rem 0;
 }
@@ -14,7 +14,7 @@
 }
 
 .PageHeader--Title {
-  font-size: 6rem;
+  font-size: 4.5rem;
   margin-bottom: 0;
 }
 
