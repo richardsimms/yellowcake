@@ -21,31 +21,4 @@
   margin-bottom: 0;
 }
 
-.PageHeader--Subtitle {
-  font-weight: 400;
-  font-size: 1.8rem;
-}
 
-.PageHeader .container {
-  animation: fadeIn 0.5s ease-out;
-}
-
-.Product--button {
-  background: none;
-  border: none;
-  color:#155185;
-  font-weight: 300;
-  font-size: 1.6rem;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-
-@media (max-width: 600px) {
-  .PageHeader {
-    padding: 7rem 0;
-  }
-  .PageHeader-large {
-    padding: 12.5rem 0;
-  }
-}

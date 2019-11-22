@@ -1,9 +1,8 @@
 .Nav {
   background-color: var(--yellow);
-  position: static ;
+  position: sticky ;
   top: 0;
   z-index: 2;
-
 }
 
 .Nav--Container {
@@ -17,6 +16,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  font-family: var(--font-primary);
+  font-weight: 500;
 }
 
 .Nav--Links > * + * {
@@ -111,9 +112,11 @@
     display: block !important;
     margin-left: auto;
     z-index: 1;
+    color: var(--darkGrey);
   }
   .Nav .Logo {
     z-index: 1;
+    
   }
 
   .Nav--Links {
@@ -126,7 +129,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
+    background: var(--lightblue);
     animation: Nav--Links 0.2s ease;
   }
 
@@ -145,8 +148,8 @@
   }
 
   .Nav .NavLink {
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 2.25rem;
+    color: var(--darkGrey);
   }
 
   .Nav .NavLink:nth-of-type(2) {
