@@ -3,7 +3,7 @@ template: HomePage
 slug: ''
 title: Plan your marketing to build your business for growth
 featuredImage: 'https://ucarecdn.com/1b70d70d-91ab-4647-a2ae-b2d0d6195c39/'
-subtitle: ' sdfjh'
+subtitle: '``'
 accordion:
   - content: 'Test '
     title: Title
